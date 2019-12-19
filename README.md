@@ -1,10 +1,9 @@
-# mypluralize
+# mytspkg
 A Node.js module that returns the plural form of any noun
 ## Installation 
 ```sh
-npm install mypluralize --save
-yarn add mypluralize
-bower install pluralize --save
+npm install mytspkg --save
+yarn add mytspkg
 ```
 ## Usage
 ### Javascript
