@@ -1,0 +1,23 @@
+{
+  "name": "mytspkg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "cd tests; mocha --reporter spec"
+  },
+  "keywords": [],
+  "author": "Yaser Farhan <yfarhan.syed@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
